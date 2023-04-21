@@ -1,0 +1,90 @@
+body {
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ramabhadra', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    max-height: 100vh;
+    min-width: auto;
+    width: 100%;
+    min-height: auto;
+    height: 100vh;
+    margin: 0;
+    background-image: url(map.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    font-size: 64px;
+    font-weight: 2000;
+    overflow: hidden;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+
+#conEasy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+#easyMode {
+    height: 250px;
+    width: 40%;
+    min-width: 300px;
+    min-height: 100px;
+    margin-bottom: 50px;
+    transition: 0.4s;
+    border: none;
+    font-size: 48px;
+    border-radius: 10px;
+}
+
+#easyMode:hover {
+    cursor: pointer;
+    background-color: green;
+    transition: 0.4s;
+    color: white;
+}
+
+#conHard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hardMode {
+    width: 40%;
+    height: 250px;
+    min-width: 300px;
+    min-height: 100px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+    border: none;
+    font-size: 48px;
+    border-radius: 10px;
+}
+
+#hardMode:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    transition: 0.4s;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
