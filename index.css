@@ -1,0 +1,49 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ramabhadra', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    background-image: url(map.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    position: relative;
+}
+
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    height: 75px;
+    width: 300px;
+    vertical-align: center;
+    margin-top: 60px;
+    font-size: 42px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+
+#button:hover {
+    cursor: pointer;
+    background-color: rgb(221, 219, 219);
+    transition: 0.3s;
+}
